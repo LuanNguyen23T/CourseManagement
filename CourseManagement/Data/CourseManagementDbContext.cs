@@ -19,6 +19,7 @@ namespace CourseManagement.Data
 
             modelBuilder.Entity<KhoaHoc>(entity =>
             {
+                entity.ToTable("KhoaHoc");
                 entity.Property(e => e.HocPhi)
                       .HasColumnType("decimal(18,2)"); 
             });

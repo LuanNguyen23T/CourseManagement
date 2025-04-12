@@ -18,7 +18,6 @@ D:\Chouchou DotNET\CourseManagement\obj\Debug\net9.0\CourseManagement.sourcelink
 D:\Chouchou DotNET\CourseManagement\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Chouchou DotNET\CourseManagement\obj\Debug\net9.0\scopedcss\bundle\CourseManagement.styles.css
 D:\Chouchou DotNET\CourseManagement\obj\Debug\net9.0\scopedcss\projectbundle\CourseManagement.bundle.scp.css
-D:\Chouchou DotNET\CourseManagement\obj\Debug\net9.0\compressed\ocwo6ipp0f-b9sayid5wm.gz
 D:\Chouchou DotNET\CourseManagement\obj\Debug\net9.0\compressed\jpunj1ck8j-61n19gt1b8.gz
 D:\Chouchou DotNET\CourseManagement\obj\Debug\net9.0\compressed\hlyf853ln3-xtxxf3hu2r.gz
 D:\Chouchou DotNET\CourseManagement\obj\Debug\net9.0\compressed\5j1kn6mew9-bqjiyaj88i.gz
@@ -232,7 +231,6 @@ D:\Chouchou DotNET\CourseManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\Sys
 D:\Chouchou DotNET\CourseManagement\obj\Debug\net9.0\CourseMa.FE25483D.Up2Date
 D:\Chouchou DotNET\CourseManagement\bin\Debug\net9.0\package-lock.json
 D:\Chouchou DotNET\CourseManagement\bin\Debug\net9.0\package.json
-D:\Chouchou DotNET\CourseManagement\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 D:\Chouchou DotNET\CourseManagement\bin\Debug\net9.0\refs\Microsoft.AspNetCore.Antiforgery.dll
 D:\Chouchou DotNET\CourseManagement\bin\Debug\net9.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
 D:\Chouchou DotNET\CourseManagement\bin\Debug\net9.0\refs\Microsoft.AspNetCore.Authentication.BearerToken.dll
@@ -530,3 +528,5 @@ D:\Chouchou DotNET\CourseManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.Ra
 D:\Chouchou DotNET\CourseManagement\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
 D:\Chouchou DotNET\CourseManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
 D:\Chouchou DotNET\CourseManagement\obj\Debug\net9.0\CourseManagement.MvcApplicationPartsAssemblyInfo.cs
+D:\Chouchou DotNET\CourseManagement\obj\Debug\net9.0\compressed\ocwo6ipp0f-hny9nxey9a.gz
+D:\Chouchou DotNET\CourseManagement\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

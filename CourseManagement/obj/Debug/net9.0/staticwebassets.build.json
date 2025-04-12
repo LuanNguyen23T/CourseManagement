@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VCQFlCEZgtOtf9DRCSvjcspjpYmgijTKkV8zpqDvJHY=",
+  "Hash": "ciS3Mk9xFdx1rm9Il7UV/PkXTq6m/iVJOzEsWdCmLls=",
   "Source": "CourseManagement",
   "BasePath": "_content/CourseManagement",
   "Mode": "Default",
@@ -815,12 +815,12 @@
       "OriginalItemSpec": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Chouchou DotNET\\CourseManagement\\obj\\Debug\\net9.0\\compressed\\ocwo6ipp0f-b9sayid5wm.gz",
+      "Identity": "D:\\Chouchou DotNET\\CourseManagement\\obj\\Debug\\net9.0\\compressed\\ocwo6ipp0f-hny9nxey9a.gz",
       "SourceId": "CourseManagement",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Chouchou DotNET\\CourseManagement\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/CourseManagement",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=hny9nxey9a}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -829,8 +829,8 @@
       "RelatedAsset": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wf4wcyqcqt",
-      "Integrity": "fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=",
+      "Fingerprint": "blqjc3p0j7",
+      "Integrity": "oeq24Fbh/4XUpUKqPBaa1AR3gtiqWLc4Q3tn/eOoFSQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "hny9nxey9a",
+      "Integrity": "rRIMVoTvg6Qup7g5UazRY7TvbBHSpIRrWXZZkmR/gMk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1443,6 +1443,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\images\\Home\\Home_DotNET.png",
+      "SourceId": "CourseManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\",
+      "BasePath": "_content/CourseManagement",
+      "RelativePath": "images/Home/Home_DotNET#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mtap1k644u",
+      "Integrity": "9isgFykJ13WoylC6IkZQ6lmcIKNDkkMDlHzNlxrkSgE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Home\\Home_DotNET.png"
+    },
+    {
+      "Identity": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\images\\Home\\Home_Performance.png",
+      "SourceId": "CourseManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\",
+      "BasePath": "_content/CourseManagement",
+      "RelativePath": "images/Home/Home_Performance#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9ox0m9exk5",
+      "Integrity": "eWQV9VbM8NdGADwuyeBxk2RMC9Tz4VN0pVyX60P6bWM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Home\\Home_Performance.png"
     },
     {
       "Identity": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\js\\site.js",
@@ -3324,13 +3366,13 @@
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\obj\\Debug\\net9.0\\compressed\\ocwo6ipp0f-b9sayid5wm.gz",
+      "Route": "css/site.css",
+      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\obj\\Debug\\net9.0\\compressed\\ocwo6ipp0f-hny9nxey9a.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.002747252747"
         }
       ],
       "ResponseHeaders": [
@@ -3340,19 +3382,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "363"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"oeq24Fbh/4XUpUKqPBaa1AR3gtiqWLc4Q3tn/eOoFSQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 14:44:03 GMT"
+          "Value": "Sat, 12 Apr 2025 14:00:40 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -3368,26 +3410,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"rRIMVoTvg6Qup7g5UazRY7TvbBHSpIRrWXZZkmR/gMk=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-rRIMVoTvg6Qup7g5UazRY7TvbBHSpIRrWXZZkmR/gMk="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.css",
       "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3397,7 +3431,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "774"
         },
         {
           "Name": "Content-Type",
@@ -3405,11 +3439,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"rRIMVoTvg6Qup7g5UazRY7TvbBHSpIRrWXZZkmR/gMk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 14:44:03 GMT"
+          "Value": "Sat, 12 Apr 2025 14:00:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rRIMVoTvg6Qup7g5UazRY7TvbBHSpIRrWXZZkmR/gMk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\obj\\Debug\\net9.0\\compressed\\ocwo6ipp0f-hny9nxey9a.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "363"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oeq24Fbh/4XUpUKqPBaa1AR3gtiqWLc4Q3tn/eOoFSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 14:00:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oeq24Fbh/4XUpUKqPBaa1AR3gtiqWLc4Q3tn/eOoFSQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.hny9nxey9a.css",
+      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\obj\\Debug\\net9.0\\compressed\\ocwo6ipp0f-hny9nxey9a.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002747252747"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "363"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oeq24Fbh/4XUpUKqPBaa1AR3gtiqWLc4Q3tn/eOoFSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 14:00:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rRIMVoTvg6Qup7g5UazRY7TvbBHSpIRrWXZZkmR/gMk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hny9nxey9a"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rRIMVoTvg6Qup7g5UazRY7TvbBHSpIRrWXZZkmR/gMk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.hny9nxey9a.css",
+      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "774"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rRIMVoTvg6Qup7g5UazRY7TvbBHSpIRrWXZZkmR/gMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 14:00:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3419,7 +3598,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "hny9nxey9a"
         },
         {
           "Name": "label",
@@ -3427,13 +3606,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-rRIMVoTvg6Qup7g5UazRY7TvbBHSpIRrWXZZkmR/gMk="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\obj\\Debug\\net9.0\\compressed\\ocwo6ipp0f-b9sayid5wm.gz",
+      "Route": "css/site.hny9nxey9a.css.gz",
+      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\obj\\Debug\\net9.0\\compressed\\ocwo6ipp0f-hny9nxey9a.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3442,7 +3621,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "363"
         },
         {
           "Name": "Content-Type",
@@ -3450,11 +3629,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"oeq24Fbh/4XUpUKqPBaa1AR3gtiqWLc4Q3tn/eOoFSQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 14:44:03 GMT"
+          "Value": "Sat, 12 Apr 2025 14:00:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3472,7 +3651,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "hny9nxey9a"
         },
         {
           "Name": "label",
@@ -3480,144 +3659,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\obj\\Debug\\net9.0\\compressed\\ocwo6ipp0f-b9sayid5wm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003125000000"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "319"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 14:44:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "667"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 14:44:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\obj\\Debug\\net9.0\\compressed\\ocwo6ipp0f-b9sayid5wm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "319"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 14:44:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-oeq24Fbh/4XUpUKqPBaa1AR3gtiqWLc4Q3tn/eOoFSQ="
         }
       ]
     },
@@ -3916,6 +3958,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/Home_DotNET.mtap1k644u.png",
+      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\images\\Home\\Home_DotNET.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "635764"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9isgFykJ13WoylC6IkZQ6lmcIKNDkkMDlHzNlxrkSgE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 13:37:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mtap1k644u"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Home/Home_DotNET.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9isgFykJ13WoylC6IkZQ6lmcIKNDkkMDlHzNlxrkSgE="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/Home_DotNET.png",
+      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\images\\Home\\Home_DotNET.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "635764"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9isgFykJ13WoylC6IkZQ6lmcIKNDkkMDlHzNlxrkSgE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 13:37:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9isgFykJ13WoylC6IkZQ6lmcIKNDkkMDlHzNlxrkSgE="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/Home_Performance.9ox0m9exk5.png",
+      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\images\\Home\\Home_Performance.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eWQV9VbM8NdGADwuyeBxk2RMC9Tz4VN0pVyX60P6bWM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 13:49:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9ox0m9exk5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Home/Home_Performance.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eWQV9VbM8NdGADwuyeBxk2RMC9Tz4VN0pVyX60P6bWM="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/Home_Performance.png",
+      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\images\\Home\\Home_Performance.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eWQV9VbM8NdGADwuyeBxk2RMC9Tz4VN0pVyX60P6bWM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 13:49:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eWQV9VbM8NdGADwuyeBxk2RMC9Tz4VN0pVyX60P6bWM="
         }
       ]
     },

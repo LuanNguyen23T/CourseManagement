@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\images\\Home\\Home_DotNET.png",
+      "PackagePath": "staticwebassets\\images\\Home\\Home_DotNET.png"
+    },
+    {
+      "Id": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\images\\Home\\Home_Performance.png",
+      "PackagePath": "staticwebassets\\images\\Home\\Home_Performance.png"
+    },
+    {
       "Id": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

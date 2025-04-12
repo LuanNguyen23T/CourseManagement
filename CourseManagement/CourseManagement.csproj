@@ -12,8 +12,6 @@
     <Folder Include="Areas\Users\Views\Notification\" />
     <Folder Include="Migrations\" />
     <Folder Include="ViewModels\Admin\" />
-    <Folder Include="Views\Admin\" />
-    <Folder Include="Views\Users\" />
   </ItemGroup>
 
   <ItemGroup>
