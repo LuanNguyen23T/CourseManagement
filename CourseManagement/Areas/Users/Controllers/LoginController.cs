@@ -1,18 +1,18 @@
-﻿using CourseManagement.ViewModels.Users;
+﻿using CourseManagement.Data;
+using CourseManagement.ViewModels.Users;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
-using CourseManagement.Data;
-using CourseManagement.Models;
-using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace CourseManagement.Areas.Users.Controllers
 {
     [Area("Users")]
     public class LoginController : Controller
     {
-        private readonly CourseManagementDbContext _context; 
+        private readonly CourseManagementDbContext _context;
 
-        public LoginController(CourseManagementDbContext context) 
+        public LoginController(CourseManagementDbContext context)
         {
             _context = context;
         }
@@ -20,8 +20,8 @@ namespace CourseManagement.Areas.Users.Controllers
         [HttpGet]
         public IActionResult Login()
         {
-            ViewData["Title"] = "Đăng Nhập";
-            return View(new LoginViewModel());
+            var model = new LoginViewModel();
+            return View(model);
         }
 
         [HttpPost]
@@ -29,25 +29,45 @@ namespace CourseManagement.Areas.Users.Controllers
         {
             if (!ModelState.IsValid)
             {
-                // Trả về view với lỗi xác thực
                 return View(model);
             }
 
-            // Kiểm tra thông tin đăng nhập
-            var user = await _context.Accounts
-                .FirstOrDefaultAsync(u => u.TaiKhoan == model.Username);
+            var user = _context.HocViens
+                .FirstOrDefault(u => u.MaHocVien == model.MaHocVien && u.MatKhau == model.MatKhau);
 
-            if (user == null || user.MatKhau != model.Password)
+            if (user == null)
             {
-                // Thêm lỗi xác thực nếu thông tin không đúng
-                ModelState.AddModelError(string.Empty, "Mã học viên hoặc mật khẩu không đúng.");
+                ModelState.AddModelError(string.Empty, "Tên đăng nhập hoặc mật khẩu không đúng");
                 return View(model);
             }
 
-            // Đăng nhập thành công, chuyển hướng
+
+            // Tạo Claims
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, user.MaHocVien),
+                new Claim(ClaimTypes.Role, user.Role.ToString()) // Ensure Role is converted to string
+            };
+
+            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+            // Tạo Cookie
+            var authProperties = new AuthenticationProperties
+            {
+                IsPersistent = model.RememberMe, // Ghi nhớ đăng nhập
+                ExpiresUtc = DateTimeOffset.UtcNow.AddHours(1) // Thời gian hết hạn
+            };
+
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
+
             return RedirectToAction("Index", "Home");
         }
 
-
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Login", "Login");
+        }
     }
 }

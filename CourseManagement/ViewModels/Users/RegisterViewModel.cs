@@ -4,16 +4,16 @@ namespace CourseManagement.ViewModels.Users
 {
     public class RegisterViewModel
     {
-        public string MaHocVien { get; set; } 
 
         [Required(ErrorMessage = "Vui lòng nhập Họ tên")]
         [StringLength(100, ErrorMessage = "Họ tên không được vượt quá 100 ký tự")]
         public string HoTen { get; set; }
 
         [Required(ErrorMessage = "Vui lòng nhập Ngày sinh")]
+        [Range(typeof(DateTime), "1900-01-01", "2025-04-28", ErrorMessage = "Ngày sinh không hợp lệ")]
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         [DataType(DataType.Date)]
-        public DateTime NgaySinh { get; set; }
+        public DateTime NgaySinh { get; set; } = DateTime.Today;
 
         [Required(ErrorMessage = "Vui lòng nhập Số điện thoại")]
         [Phone(ErrorMessage = "Số điện thoại không hợp lệ")]

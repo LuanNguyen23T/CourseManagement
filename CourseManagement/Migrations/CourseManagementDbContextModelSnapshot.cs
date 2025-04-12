@@ -22,20 +22,6 @@ namespace CourseManagement.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("CourseManagement.Models.Account", b =>
-                {
-                    b.Property<string>("TaiKhoan")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("MatKhau")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("TaiKhoan");
-
-                    b.ToTable("Accounts");
-                });
-
             modelBuilder.Entity("CourseManagement.Models.DangKiKhoaHoc", b =>
                 {
                     b.Property<string>("MaHocVien")
@@ -58,26 +44,27 @@ namespace CourseManagement.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("HoTen")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MatKhau")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("NgaySinh")
+                    b.Property<DateTime?>("NgaySinh")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("Role")
                         .HasColumnType("int");
 
                     b.Property<string>("SoDienThoai")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("MaHocVien");
 
-                    b.ToTable("HocViens");
+                    b.ToTable("HocVien", (string)null);
                 });
 
             modelBuilder.Entity("CourseManagement.Models.KhoaHoc", b =>

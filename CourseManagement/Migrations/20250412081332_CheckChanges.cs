@@ -6,23 +6,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CourseManagement.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class CheckChanges : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.CreateTable(
-                name: "Accounts",
-                columns: table => new
-                {
-                    TaiKhoan = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    MatKhau = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Accounts", x => x.TaiKhoan);
-                });
-
             migrationBuilder.CreateTable(
                 name: "DangKiKhoaHocs",
                 columns: table => new
@@ -37,19 +25,20 @@ namespace CourseManagement.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "HocViens",
+                name: "HocVien",
                 columns: table => new
                 {
                     MaHocVien = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    HoTen = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    NgaySinh = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    SoDienThoai = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Role = table.Column<int>(type: "int", nullable: false)
+                    HoTen = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    NgaySinh = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    SoDienThoai = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Role = table.Column<int>(type: "int", nullable: false),
+                    MatKhau = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_HocViens", x => x.MaHocVien);
+                    table.PrimaryKey("PK_HocVien", x => x.MaHocVien);
                 });
 
             migrationBuilder.CreateTable(
@@ -73,13 +62,10 @@ namespace CourseManagement.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Accounts");
-
-            migrationBuilder.DropTable(
                 name: "DangKiKhoaHocs");
 
             migrationBuilder.DropTable(
-                name: "HocViens");
+                name: "HocVien");
 
             migrationBuilder.DropTable(
                 name: "KhoaHocs");
