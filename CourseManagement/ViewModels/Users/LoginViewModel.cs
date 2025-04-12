@@ -10,6 +10,12 @@ namespace CourseManagement.ViewModels.Users
         [Required(ErrorMessage = "Vui lòng nhập Mật khẩu")]
         public string? MatKhau { get; set; }
 
+        [Required(ErrorMessage = "Vui lòng xác nhận lại Mật khẩu")]
+        public string? XacNhanMatKhau { get; set; }
+
+        [Required(ErrorMessage = "Vui lòng nhập Email")]
+        public string? Email { get; set; }
+
         public bool RememberMe { get; set; }
     }
 }

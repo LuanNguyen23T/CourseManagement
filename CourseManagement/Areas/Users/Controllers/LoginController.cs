@@ -69,5 +69,74 @@ namespace CourseManagement.Areas.Users.Controllers
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Login", "Login");
         }
+
+
+        [HttpGet]
+        public IActionResult ForgotPassword()
+        {
+            var model = new LoginViewModel();
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult ForgotPassword(LoginViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            // Tìm kiếm người dùng dựa trên tên đăng nhập và số điện thoại
+            var user = _context.HocViens.FirstOrDefault(u => u.MaHocVien == model.MaHocVien && u.Email == model.Email);
+
+            if (user == null)
+            {
+                ModelState.AddModelError(string.Empty, "Thông tin không chính xác. Vui lòng kiểm tra lại.");
+                return View(model);
+            }
+
+            // Logic gửi email hoặc thông báo đặt lại mật khẩu
+            TempData["Message"] = "Yêu cầu đặt lại mật khẩu đã được gửi. Vui lòng kiểm tra email của bạn.";
+            return RedirectToAction("ForgotPassword");
+        }
+
+        [HttpGet]
+        public IActionResult ResetPassword(string userId, string token)
+        {
+            // Kiểm tra token và userId hợp lệ
+            var model = new LoginViewModel
+            {
+                MaHocVien = userId,
+                MatKhau = token
+            };
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult ResetPassword(LoginViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            // Tìm người dùng dựa trên UserId
+            var user = _context.HocViens.FirstOrDefault(u => u.MaHocVien == model.MaHocVien);
+
+            if (user == null)
+            {
+                ModelState.AddModelError(string.Empty, "Người dùng không tồn tại.");
+                return View(model);
+            }
+
+            // Cập nhật mật khẩu mới
+            user.MatKhau = model.MatKhau;
+            _context.SaveChanges();
+
+            TempData["Message"] = "Mật khẩu đã được đặt lại thành công.";
+            return RedirectToAction("Login");
+        }
+
+
     }
 }
