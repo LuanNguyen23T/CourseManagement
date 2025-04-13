@@ -30,6 +30,8 @@ namespace CourseManagement.Data
             });
         }
 
+        public IQueryable<HocVien> HocVien => HocViens;
+
 
     }
 }

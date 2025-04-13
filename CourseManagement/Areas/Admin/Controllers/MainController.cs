@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using CourseManagement.Data; // Namespace for your DbContext
+using CourseManagement.Data; 
 using System.Linq;
 
 namespace CourseManagement.Areas.Admin.Controllers
@@ -14,7 +14,7 @@ namespace CourseManagement.Areas.Admin.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public IActionResult Main()
         {
             // Lấy tổng số học viên
             ViewBag.TotalStudents = _context.HocViens.Count();
@@ -24,5 +24,18 @@ namespace CourseManagement.Areas.Admin.Controllers
 
             return View();
         }
+
+        public IActionResult ManageStudents()
+        {
+            // Lấy danh sách học viên
+            var students = _context.HocVien.ToList();
+
+            // Truyền danh sách học viên vào ViewBag
+            ViewBag.Students = students;
+
+            // Trả về view
+            return View();
+        }
+
     }
 }

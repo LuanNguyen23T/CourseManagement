@@ -49,7 +49,7 @@ app.MapStaticAssets();
 // Map area routes
 app.MapControllerRoute(
    name: "areas",
-   pattern: "{area:exists}/{controller=Main}/{action=Index}/{id?}",
+   pattern: "{area:exists}/{controller=Main}/{action=Main}/{id?}",
    defaults: new { area = "Admin" });
 
 // Map default route
