@@ -64,6 +64,8 @@ wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\Home\Home_DotNET.png
 wwwroot\images\Home\Home_Performance.png
+wwwroot\images\Main\Course.jpg
+wwwroot\images\Main\Students.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

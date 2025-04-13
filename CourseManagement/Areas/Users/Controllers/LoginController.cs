@@ -75,7 +75,7 @@ namespace CourseManagement.Areas.Users.Controllers
         public IActionResult ForgotPassword()
         {
             var model = new LoginViewModel();
-            return View("ResetPassword", model);
+            return View(model);
         }
 
         [HttpPost]

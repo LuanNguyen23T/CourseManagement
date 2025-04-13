@@ -1061,6 +1061,170 @@
       ]
     },
     {
+      "Route": "images/Main/Course.2xhfkzb8cm.jpg",
+      "AssetFile": "images/Main/Course.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5593"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"drg7OMzV9sp/LTHvMa+lPvllidRuZoGXY4+oDmquFj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 15:49:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2xhfkzb8cm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-drg7OMzV9sp/LTHvMa+lPvllidRuZoGXY4+oDmquFj0="
+        },
+        {
+          "Name": "label",
+          "Value": "images/Main/Course.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/Main/Course.jpg",
+      "AssetFile": "images/Main/Course.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5593"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"drg7OMzV9sp/LTHvMa+lPvllidRuZoGXY4+oDmquFj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 15:49:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-drg7OMzV9sp/LTHvMa+lPvllidRuZoGXY4+oDmquFj0="
+        }
+      ]
+    },
+    {
+      "Route": "images/Main/Students.i9n29g7ij9.jpg",
+      "AssetFile": "images/Main/Students.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68073"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ukTcz4RMHSTciIY7+zBe38YsCaO6mdCnH8RXOr+vEEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 16:02:55 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i9n29g7ij9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ukTcz4RMHSTciIY7+zBe38YsCaO6mdCnH8RXOr+vEEo="
+        },
+        {
+          "Name": "label",
+          "Value": "images/Main/Students.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/Main/Students.jpg",
+      "AssetFile": "images/Main/Students.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68073"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ukTcz4RMHSTciIY7+zBe38YsCaO6mdCnH8RXOr+vEEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 16:02:55 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ukTcz4RMHSTciIY7+zBe38YsCaO6mdCnH8RXOr+vEEo="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "js/site.js.gz",
       "Selectors": [

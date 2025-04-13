@@ -21,6 +21,14 @@
       "PackagePath": "staticwebassets\\images\\Home\\Home_Performance.png"
     },
     {
+      "Id": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\images\\Main\\Course.jpg",
+      "PackagePath": "staticwebassets\\images\\Main\\Course.jpg"
+    },
+    {
+      "Id": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\images\\Main\\Students.jpg",
+      "PackagePath": "staticwebassets\\images\\Main\\Students.jpg"
+    },
+    {
       "Id": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ciS3Mk9xFdx1rm9Il7UV/PkXTq6m/iVJOzEsWdCmLls=",
+  "Hash": "k/mqxH6rOSLGvp9q1zuGFuSmUfYQh38GNSfLVygaQNE=",
   "Source": "CourseManagement",
   "BasePath": "_content/CourseManagement",
   "Mode": "Default",
@@ -1485,6 +1485,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Home\\Home_Performance.png"
+    },
+    {
+      "Identity": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\images\\Main\\Course.jpg",
+      "SourceId": "CourseManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\",
+      "BasePath": "_content/CourseManagement",
+      "RelativePath": "images/Main/Course#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2xhfkzb8cm",
+      "Integrity": "drg7OMzV9sp/LTHvMa+lPvllidRuZoGXY4+oDmquFj0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Main\\Course.jpg"
+    },
+    {
+      "Identity": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\images\\Main\\Students.jpg",
+      "SourceId": "CourseManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\",
+      "BasePath": "_content/CourseManagement",
+      "RelativePath": "images/Main/Students#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i9n29g7ij9",
+      "Integrity": "ukTcz4RMHSTciIY7+zBe38YsCaO6mdCnH8RXOr+vEEo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Main\\Students.jpg"
     },
     {
       "Identity": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\js\\site.js",
@@ -4122,6 +4164,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-eWQV9VbM8NdGADwuyeBxk2RMC9Tz4VN0pVyX60P6bWM="
+        }
+      ]
+    },
+    {
+      "Route": "images/Main/Course.2xhfkzb8cm.jpg",
+      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\images\\Main\\Course.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5593"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"drg7OMzV9sp/LTHvMa+lPvllidRuZoGXY4+oDmquFj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 15:49:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2xhfkzb8cm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Main/Course.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-drg7OMzV9sp/LTHvMa+lPvllidRuZoGXY4+oDmquFj0="
+        }
+      ]
+    },
+    {
+      "Route": "images/Main/Course.jpg",
+      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\images\\Main\\Course.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5593"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"drg7OMzV9sp/LTHvMa+lPvllidRuZoGXY4+oDmquFj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 15:49:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-drg7OMzV9sp/LTHvMa+lPvllidRuZoGXY4+oDmquFj0="
+        }
+      ]
+    },
+    {
+      "Route": "images/Main/Students.i9n29g7ij9.jpg",
+      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\images\\Main\\Students.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68073"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ukTcz4RMHSTciIY7+zBe38YsCaO6mdCnH8RXOr+vEEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 16:02:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i9n29g7ij9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Main/Students.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ukTcz4RMHSTciIY7+zBe38YsCaO6mdCnH8RXOr+vEEo="
+        }
+      ]
+    },
+    {
+      "Route": "images/Main/Students.jpg",
+      "AssetFile": "D:\\Chouchou DotNET\\CourseManagement\\wwwroot\\images\\Main\\Students.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68073"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ukTcz4RMHSTciIY7+zBe38YsCaO6mdCnH8RXOr+vEEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 16:02:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ukTcz4RMHSTciIY7+zBe38YsCaO6mdCnH8RXOr+vEEo="
         }
       ]
     },

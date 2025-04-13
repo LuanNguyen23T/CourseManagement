@@ -49,11 +49,12 @@ app.MapStaticAssets();
 // Map area routes
 app.MapControllerRoute(
    name: "areas",
-   pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+   pattern: "{area:exists}/{controller=Main}/{action=Index}/{id?}",
+   defaults: new { area = "Admin" });
 
 // Map default route
-app.MapControllerRoute(
-   name: "default",
-   pattern: "{controller=Home}/{action=Index}/{id?}");
+//app.MapControllerRoute(
+//   name: "default",
+//   pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
