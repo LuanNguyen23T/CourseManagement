@@ -28,13 +28,10 @@ namespace CourseManagement.Areas.Admin.Controllers
         public IActionResult ManageStudents()
         {
             // Lấy danh sách học viên
-            var students = _context.HocVien.ToList();
-
-            // Truyền danh sách học viên vào ViewBag
-            ViewBag.Students = students;
+            var students = _context.HocViens.ToList();
 
             // Trả về view
-            return View();
+            return View(students);
         }
 
     }
