@@ -33,6 +33,5 @@ namespace CourseManagement.Areas.Admin.Controllers
             // Trả về view
             return View(students);
         }
-
     }
 }

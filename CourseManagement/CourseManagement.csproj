@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Admin\Views\ManageCourse\" />
     <Folder Include="Areas\Users\Views\Notification\" />
     <Folder Include="Migrations\" />
     <Folder Include="ViewModels\Admin\" />
